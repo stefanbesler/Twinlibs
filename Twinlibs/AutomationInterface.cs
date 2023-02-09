@@ -30,7 +30,7 @@ namespace Twinlib
             return dte;
         }
 
-        static public Repository.Platform LatestLibraries(List<string> distributorFilter=null)
+        static public Repository.Platform LatestLibraries(IEnumerable<string> distributorFilter=null)
         {
             IOleMessageFilter oldFilter;
             var dte = CreateDte(out oldFilter);

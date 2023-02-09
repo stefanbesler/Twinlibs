@@ -7,6 +7,7 @@ using System.IO;
 using System.Text.Json;
 using NLog;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Twinlib
 {
@@ -34,14 +35,14 @@ namespace Twinlib
                 .MapResult(
                 (UpdateOptions opts) =>
                 {
-                    if (opts.DistributorFilter == null)
+                    if (!opts.DistributorFilter.Any())
                         opts.DistributorFilter = new List<string> { "System", "Beckhoff Automation GmbH" };
                     logger.Info("Updating manifest file");
 
                     Repository manifest = File.Exists(opts.Manifest) ?
                         JsonSerializer.Deserialize<Repository>(File.ReadAllText(opts.Manifest), new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) : new Repository();
 
-                    var platform = AutomationInterface.LatestLibraries();
+                    var platform = AutomationInterface.LatestLibraries(opts.DistributorFilter);
                     manifest.Platforms[platform.Name] = platform.Libraries;
 
                     string json = JsonSerializer.Serialize(platform, new JsonSerializerOptions { WriteIndented = true });
