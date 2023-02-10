@@ -74,6 +74,11 @@ namespace Twinlib
                 logger.Info($"Found/filtered {platform.Name} libraries for platform {platform.Libraries.Count()}");
                 return platform;
             }
+            catch (Exception ex)
+            {
+                logger.Error(ex);
+                throw ex;
+            }
             finally
             {
                 Directory.Delete(outputPath, true);
