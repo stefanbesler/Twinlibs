@@ -13,27 +13,12 @@
     },
     {
       "Name": "Tc2_BACnetRev12",
-      "LibraryVersion": "2.5.18.1",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_BACnetRev12",
-      "LibraryVersion": "2.5.19.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_BACnetRev12",
       "LibraryVersion": "2.5.20.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
       "Name": "Tc2_CncBase",
       "LibraryVersion": "3.3.3031.10",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_CncHli",
-      "LibraryVersion": "3.3.3031.42",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -83,16 +68,6 @@
     },
     {
       "Name": "Tc2_Drive",
-      "LibraryVersion": "3.3.5.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_Drive",
-      "LibraryVersion": "3.3.7.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_Drive",
       "LibraryVersion": "3.3.8.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
@@ -103,37 +78,12 @@
     },
     {
       "Name": "Tc2_EnOcean",
-      "LibraryVersion": "3.4.6.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_EnOcean",
       "LibraryVersion": "3.4.7.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
       "Name": "Tc2_EtherCAT",
-      "LibraryVersion": "3.3.15.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_EtherCAT",
-      "LibraryVersion": "3.3.16.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_EtherCAT",
-      "LibraryVersion": "3.3.19.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_EtherCAT",
       "LibraryVersion": "3.3.21.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_EthernetIP",
-      "LibraryVersion": "1.0.2.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -183,27 +133,7 @@
     },
     {
       "Name": "Tc2_MC2",
-      "LibraryVersion": "3.3.42.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2",
-      "LibraryVersion": "3.3.45.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2",
-      "LibraryVersion": "3.3.46.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2",
       "LibraryVersion": "3.3.48.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2_Camming",
-      "LibraryVersion": "3.3.11.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -213,32 +143,7 @@
     },
     {
       "Name": "Tc2_MC2_Drive",
-      "LibraryVersion": "3.3.22.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2_Drive",
-      "LibraryVersion": "3.3.23.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2_Drive",
-      "LibraryVersion": "3.3.24.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2_Drive",
-      "LibraryVersion": "3.3.25.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2_Drive",
       "LibraryVersion": "3.3.29.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2_FlyingSaw",
-      "LibraryVersion": "3.3.1.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -248,37 +153,12 @@
     },
     {
       "Name": "Tc2_MC2_XFC",
-      "LibraryVersion": "3.3.17.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2_XFC",
-      "LibraryVersion": "3.3.18.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2_XFC",
-      "LibraryVersion": "3.3.19.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MC2_XFC",
       "LibraryVersion": "3.3.22.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
       "Name": "Tc2_MDP",
-      "LibraryVersion": "3.3.7.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_MDP",
       "LibraryVersion": "3.3.8.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_ModbusRTU",
-      "LibraryVersion": "3.4.2.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -298,17 +178,7 @@
     },
     {
       "Name": "Tc2_NC",
-      "LibraryVersion": "3.3.1.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_NC",
       "LibraryVersion": "3.3.2.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_NcDrive",
-      "LibraryVersion": "3.3.3.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -324,11 +194,6 @@
     {
       "Name": "Tc2_NCI",
       "LibraryVersion": "3.3.12.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_NciXFC",
-      "LibraryVersion": "3.3.5.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -359,11 +224,6 @@
     {
       "Name": "Tc2_SerialCom",
       "LibraryVersion": "3.3.10.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_SerialCom",
-      "LibraryVersion": "3.3.7.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -398,27 +258,12 @@
     },
     {
       "Name": "Tc2_System",
-      "LibraryVersion": "3.4.24.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_System",
-      "LibraryVersion": "3.4.25.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_System",
       "LibraryVersion": "3.4.26.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
       "Name": "Tc2_SystemC69xx",
       "LibraryVersion": "3.3.1.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_SystemCX",
-      "LibraryVersion": "3.3.6.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -438,37 +283,7 @@
     },
     {
       "Name": "Tc2_Utilities",
-      "LibraryVersion": "3.3.41.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_Utilities",
-      "LibraryVersion": "3.3.42.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_Utilities",
-      "LibraryVersion": "3.3.46.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_Utilities",
-      "LibraryVersion": "3.3.47.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_Utilities",
-      "LibraryVersion": "3.3.52.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_Utilities",
       "LibraryVersion": "3.3.54.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc2_XmlDataSrv",
-      "LibraryVersion": "3.3.1.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -488,62 +303,12 @@
     },
     {
       "Name": "Tc3_BA2_Common",
-      "LibraryVersion": "2.1.11.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BA2_Common",
-      "LibraryVersion": "2.1.14.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BA2_Common",
       "LibraryVersion": "2.1.17.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BA2_Common",
-      "LibraryVersion": "2.1.3.23",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BA2_Common",
-      "LibraryVersion": "2.1.9.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BACnetRev14",
-      "LibraryVersion": "4.0.22.12",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BACnetRev14",
-      "LibraryVersion": "4.1.16.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BACnetRev14",
-      "LibraryVersion": "4.1.17.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BACnetRev14",
-      "LibraryVersion": "4.1.19.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
       "Name": "Tc3_BACnetRev14",
       "LibraryVersion": "4.1.26.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BACnetRev14",
-      "LibraryVersion": "4.1.9.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_BA_Common",
-      "LibraryVersion": "2.1.4.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -553,52 +318,12 @@
     },
     {
       "Name": "Tc3_DALI",
-      "LibraryVersion": "3.11.0.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_DALI",
       "LibraryVersion": "3.13.0.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_DALI",
-      "LibraryVersion": "3.5.0.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_DALI",
-      "LibraryVersion": "3.6.2.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_DALI",
-      "LibraryVersion": "3.8.0.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_DALI",
-      "LibraryVersion": "3.9.0.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_Database",
-      "LibraryVersion": "3.4.0.15",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
       "Name": "Tc3_Database",
       "LibraryVersion": "3.4.0.19",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_DriveMotionControl",
-      "LibraryVersion": "3.0.3.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_DriveMotionControl",
-      "LibraryVersion": "3.0.5.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -618,27 +343,7 @@
     },
     {
       "Name": "Tc3_EventLogger",
-      "LibraryVersion": "3.1.24.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_EventLogger",
-      "LibraryVersion": "3.1.28.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_EventLogger",
-      "LibraryVersion": "3.1.30.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_EventLogger",
       "LibraryVersion": "3.1.33.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_IoLink",
-      "LibraryVersion": "3.3.1.5",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -648,27 +353,7 @@
     },
     {
       "Name": "Tc3_IotBase",
-      "LibraryVersion": "3.1.18.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_IotBase",
       "LibraryVersion": "3.1.19.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_IotCommunicator",
-      "LibraryVersion": "1.0.7.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_IotCommunicator",
-      "LibraryVersion": "1.1.10.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_IotCommunicator",
-      "LibraryVersion": "1.1.12.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -683,42 +368,7 @@
     },
     {
       "Name": "Tc3_IPCDiag",
-      "LibraryVersion": "1.0.11.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_IPCDiag",
       "LibraryVersion": "1.0.12.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_IPCDiag",
-      "LibraryVersion": "1.0.5.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_IPCDiag",
-      "LibraryVersion": "1.0.8.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_IPCDiag",
-      "LibraryVersion": "1.0.9.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_JsonXml",
-      "LibraryVersion": "3.3.14.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_JsonXml",
-      "LibraryVersion": "3.3.15.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_JsonXml",
-      "LibraryVersion": "3.3.17.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -728,37 +378,12 @@
     },
     {
       "Name": "Tc3_LS",
-      "LibraryVersion": "1.1.5.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_LS",
-      "LibraryVersion": "1.1.6.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_LS",
       "LibraryVersion": "1.1.9.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
       "Name": "Tc3_MC2_AdvancedHoming",
-      "LibraryVersion": "3.0.13.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_MC2_AdvancedHoming",
-      "LibraryVersion": "3.0.14.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_MC2_AdvancedHoming",
       "LibraryVersion": "3.0.18.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_MC2_AdvancedHoming_XFC",
-      "LibraryVersion": "3.0.4.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -803,27 +428,12 @@
     },
     {
       "Name": "Tc3_PackML_V2",
-      "LibraryVersion": "3.3.14.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_PackML_V2",
       "LibraryVersion": "3.3.15.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
       "Name": "Tc3_PLCopen_OpcUa",
-      "LibraryVersion": "3.2.10.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_PLCopen_OpcUa",
       "LibraryVersion": "3.2.12.0",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_PLCopen_OpcUa",
-      "LibraryVersion": "3.2.9.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -833,17 +443,7 @@
     },
     {
       "Name": "Tc3_uniValPlc",
-      "LibraryVersion": "3.1.0.2",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_uniValPlc",
       "LibraryVersion": "3.1.0.4",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_uniValPlc_v4",
-      "LibraryVersion": "4.1.1.3",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {
@@ -853,17 +453,7 @@
     },
     {
       "Name": "Tc3_uniValPlc_v4_3",
-      "LibraryVersion": "4.3.0.1",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_uniValPlc_v4_3",
       "LibraryVersion": "4.3.0.3",
-      "Distributor": "Beckhoff Automation GmbH"
-    },
-    {
-      "Name": "Tc3_uniValPlc_v4_4",
-      "LibraryVersion": "4.4.1.0",
       "Distributor": "Beckhoff Automation GmbH"
     },
     {

@@ -68,10 +68,9 @@ namespace Twinlib
                 CoRegisterMessageFilter(oldFilter, out _);
 
                 if (distributorFilter != null)
-                    platform.Libraries = libraries.Where(x => distributorFilter.Contains(x.Distributor));
-                else
-                    platform.Libraries = libraries;
+                    libraries = libraries.Where(x => distributorFilter.Contains(x.Distributor)).ToList();
 
+                platform.Libraries = libraries.GroupBy(x => x.Name).Select(group => group.OrderByDescending(x => x.LibraryVersion)).Select(group => group.First()); ;
                 logger.Info($"Found/filtered {platform.Name} libraries for platform {platform.Libraries.Count()}");
                 return platform;
             }
