@@ -122,6 +122,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutomationInterface.cs" />
+    <Compile Include="ManifestTemplate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ManifestTemplate.tt</DependentUpon>
+    </Compile>
     <Compile Include="Repository.cs" />
     <Compile Include="MessageFilter.cs" />
     <Compile Include="Program.cs" />
@@ -144,6 +149,15 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ManifestTemplate.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>ManifestTemplate.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

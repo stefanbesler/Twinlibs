@@ -27,7 +27,13 @@ namespace Twinlib
 
         [Verb("render")]
         class RenderOptions
-        {}
+        {
+            [Option('o', "output", Default = "Twinlibs.md", Required = false, HelpText = "Path to a markdown file that should be rendered to")]
+            public string Output { get; set; }
+
+            [Option('m', "manifest", Default = "Twinlibs.manifest", Required = false, HelpText = "Path the manifest file that should be rendered")]
+            public string Manifest { get; set; }
+        }
 
         static int Main(string[] args)
         {
@@ -35,12 +41,12 @@ namespace Twinlib
                 .MapResult(
                 (UpdateOptions opts) =>
                 {
+                    Repository manifest = File.Exists(opts.Manifest) ?
+                        JsonSerializer.Deserialize<Repository>(File.ReadAllText(opts.Manifest), new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) : new Repository();
+
                     if (!opts.DistributorFilter.Any())
                         opts.DistributorFilter = new List<string> { "System", "Beckhoff Automation GmbH" };
                     logger.Info("Updating manifest file");
-
-                    Repository manifest = File.Exists(opts.Manifest) ?
-                        JsonSerializer.Deserialize<Repository>(File.ReadAllText(opts.Manifest), new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) : new Repository();
 
                     var platform = AutomationInterface.LatestLibraries(opts.DistributorFilter);
                     manifest.Platforms[platform.Name] = platform.Libraries;
@@ -51,6 +57,11 @@ namespace Twinlib
                 },
                 (RenderOptions opts) =>
                 {
+                    Repository manifest = File.Exists(opts.Manifest) ?
+                        JsonSerializer.Deserialize<Repository>(File.ReadAllText(opts.Manifest), new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) : new Repository();
+
+                    var manifestTemplate = new Twinlibs.ManifestTemplate();
+                    File.WriteAllText(opts.Output, manifestTemplate.TransformText());
                     return 0;
                 }, errs => 1); ;
         }
