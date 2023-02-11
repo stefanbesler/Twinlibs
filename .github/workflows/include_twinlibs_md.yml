@@ -15,7 +15,7 @@ jobs:
      steps:
         - name: Checkout source code
           uses: actions/checkout@v3
-        - run: git config --global --add safe.directory /github/workspace
+        - run: git config --system --add safe.directory /home/runner/work/Twinlibs/Twinlibs
         - run: sed -i '/<!-- TWINLIBS_MD:START -->/,/<!-- TWINLIBS_MD:END -->/d' README.md
         - run: echo '<!-- TWINLIBS_MD:START -->' >> README.md
         - run: cat Twinlibs.md >> README.md
