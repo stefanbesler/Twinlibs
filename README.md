@@ -1,4 +1,4 @@
 # Twinlibs
 
-<!-- TWINLIB_MANIFEST:BEGIN -->
-<!-- TWINLIB_MANIFEST:END -->
+<!-- TWINLIBS_MD:BEGIN -->
+<!-- TWINLIBS_MD:END -->
