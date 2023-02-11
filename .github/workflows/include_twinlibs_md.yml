@@ -22,7 +22,7 @@ jobs:
         - run: echo '<!-- TWINLIBS_MD:END -->' >> README.md
 
         - name: push
-          uses: actions-x/commit@v2
+          uses: actions-x/commit@v3
           env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           with:
